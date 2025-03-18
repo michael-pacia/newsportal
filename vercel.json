@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.php" }
+  "redirects": [
+    { "source": "/", "destination": "/index.php" }
   ]
 }
